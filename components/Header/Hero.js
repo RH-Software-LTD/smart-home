@@ -2,12 +2,14 @@ import {FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from 'react-icons/fa
 
 
 const styles = {
-  section: 'py-4 grow lg:pt-12 lg:pb-16',
+  section: 'py-2 grow lg:pt-12 lg:pb-16',
   heroBody: 'px-4 mx-auto max-w-8xl lg:px-4 lg:text-center',
   headText: 'text-center mx-auto max-w-[920px] text-white text-[85px] font-extrabold tracking-tight lg:font-extrabold lg:text-6xl lg:leading-none lg:text-center xl:px-36 lg:mb-7',
   p:'max-w-[1200px] text-center mx-auto mb-10 text-[18px] font-normal text-[#FAFAFA] lg:text-center lg:text-[18px] xl:px-60',
   phones: 'relative mx-auto mt-12 w-full max-w-[1320px] lg:mt-2-10',
   socialBar: 'absolute left-0 top-1/4 z-50 px-5 py-12 top-[532px] bg-transparent flex flex-col space-y-6 text-white',
+  download: ''
+
 }
 
 
@@ -38,6 +40,10 @@ const Hero = () => {
         <a href='' title='Follow on Twitter'>
           <FaLinkedinIn/>
         </a>
+      </div>
+      <div className="flex max-w-[448px] justify-center space-x-10 relative mx-auto mt-20">
+        <img src="/apple.png" alt='appple'></img>
+        <img src="/google.png" alt="google"></img>
       </div>
     </section>
     );

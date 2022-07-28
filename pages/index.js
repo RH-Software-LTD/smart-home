@@ -2,6 +2,7 @@ import Head from 'next/head';
 import React from 'react'
 import Navbar from '../components/Header/Navbar'
 import Hero from '../components/Header/Hero'
+import About from '../components/Header/About';
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       </Head>
       <Navbar/>
       <Hero/>
+      <About/>
     </div>
   )
 }
