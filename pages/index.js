@@ -3,6 +3,8 @@ import React from 'react'
 import Navbar from '../components/Header/Navbar'
 import Hero from '../components/Header/Hero'
 import About from '../components/About/About'
+import OurClients from '../components/Clients/OurClients'
+import Testimonial from '../components/Testimonial/Testimonial';
 
 
 const Home = () => {
@@ -17,6 +19,8 @@ const Home = () => {
       <Navbar/>
       <Hero/>
       <About/>
+      <OurClients/>
+      <Testimonial/>
     </div>
   )
 }
