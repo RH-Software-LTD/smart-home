@@ -8,10 +8,11 @@ module.exports = {
     fontSize: {
       sm: ['18px', '22px'],
       base: ['16px', '24px'],
-      lg: ['20px', '28px'],
+      lg: ['20px', '32px'],
       xl: ['24px', '32px'],
       xxl: ['32px', '39px'],
-
+      header:['85px','85px'],
+      aboutHeader:['46px','46px'],
     },
     extend: {
       colors: {

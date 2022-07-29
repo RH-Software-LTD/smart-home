@@ -2,8 +2,8 @@ import Head from 'next/head';
 import React from 'react'
 import Navbar from '../components/Header/Navbar'
 import Hero from '../components/Header/Hero'
-import About from '../components/Header/About'
-import Clients from '../components/Header/Clients'
+import About from '../components/About/About'
+
 
 const Home = () => {
   return (
@@ -17,7 +17,6 @@ const Home = () => {
       <Navbar/>
       <Hero/>
       <About/>
-      <Clients/>
     </div>
   )
 }
