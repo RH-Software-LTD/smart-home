@@ -117,7 +117,10 @@ const Testimonials = () => {
                         <img src="/profile4.png"/>
                     </footer>
                 </blockquote>
-            </div>
+        </div>
+        <div>
+            <img src="/skimage.png" alt="skimage" className="py-[74px] mx-auto"></img>
+        </div>
     </section>
     );
 };
