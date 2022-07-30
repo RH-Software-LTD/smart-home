@@ -6,6 +6,7 @@ import About from '../components/About/About'
 import OurClients from '../components/Clients/OurClients'
 import Testimonial from '../components/Testimonial/Testimonial';
 import Faqs from '../components/Faq/Faqs';
+import DownloadCTA from '../components/Download/DownloadCTA';
 
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
       <OurClients/>
       <Testimonial/>
       <Faqs/>
+      <DownloadCTA/>
     </div>
   )
 }
