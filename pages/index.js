@@ -5,7 +5,7 @@ import Hero from '../components/Header/Hero'
 import About from '../components/About/About'
 import OurClients from '../components/Clients/OurClients'
 import Testimonial from '../components/Testimonial/Testimonial';
-import Faq from '../components/Faq/Faq';
+import Faqs from '../components/Faq/Faqs';
 
 
 const Home = () => {
@@ -22,7 +22,7 @@ const Home = () => {
       <About/>
       <OurClients/>
       <Testimonial/>
-      <Faq/>
+      <Faqs/>
     </div>
   )
 }
