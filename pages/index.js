@@ -11,7 +11,7 @@ import DownloadCTA from '../components/Download/DownloadCTA';
 
 const Home = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-flex-start">
+    <div className="flex min-h-screen mx-auto flex-col items-center justify-flex-start">
       <div className="bg-regal-blue absolute z-[-1] w-full h-[900px]"></div>
       <Head>
         <title>App Landing | A mobile app landing page</title>

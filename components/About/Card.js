@@ -1,5 +1,5 @@
 const styles = {
-  container: "flex w-full justify-between px-32",
+  container: "flex max-w-[1320px] py-10 w-full justify-between px-32",
   phone: "w-1/2",
   infoBox: "w-1/2 pl-24",
   header: "pt-32 text-aboutHeader font-semibold tracking-[2px] text-[#000F37]",

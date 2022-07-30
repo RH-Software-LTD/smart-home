@@ -1,5 +1,5 @@
 const styles = {
-    section: 'max-w-[1328px] mx-auto',
+    section: 'max-w-[1320px] mx-auto',
     container: 'container mx-auto px-4',
     flexWrap: 'flex flex-wrap items-center -m-6',
     cocuk1: 'relative w-full md:w-1/2 p-6',
@@ -11,7 +11,8 @@ const styles = {
 
 const DownloadCTA = () => {
     return (
-    <section className={styles.section}>
+    <>
+        <section className={styles.section}>
         <div className={styles.container}>
           <div className={styles.flexWrap}>
             <div class="relative w-1/2 p-6">
@@ -37,7 +38,8 @@ const DownloadCTA = () => {
             </div>
           </div>
         </div>
-      </section>
+        </section>
+    </>
     )
 }
 
