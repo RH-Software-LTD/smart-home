@@ -8,6 +8,7 @@ import Testimonial from '../components/Testimonial/Testimonial';
 import Faqs from '../components/Faq/Faqs';
 import DownloadCTA from '../components/Download/DownloadCTA';
 import Cta from '../components/Cta/Cta';
+import Footer from '../components/Footer/Footer';
 
 
 const Home = () => {
@@ -27,6 +28,7 @@ const Home = () => {
       <Faqs/>
       <DownloadCTA/>
       <Cta/>
+      <Footer/>
     </div>
   )
 }
