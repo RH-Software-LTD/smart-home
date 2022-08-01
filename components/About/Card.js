@@ -2,7 +2,7 @@ const styles = {
   container: "flex max-w-[1320px] py-10 w-full justify-between px-32",
   phone: "w-1/2",
   infoBox: "w-1/2 pl-24",
-  header: "pt-32 text-aboutHeader font-semibold tracking-[2px] text-[#000F37]",
+  header: "pt-32 text-aboutHeader font-semibold tracking-[1px] text-[#000F37]",
   info: "py-10 text-lg font-normal text-[#575757] w-[450px]",
 };
 
