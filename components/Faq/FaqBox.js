@@ -5,7 +5,7 @@ const styles = {
     detailsOpened: 'group rounded-xl bg-white p-6 shadow-2xl',
     questionArea: 'flex items-center',
     p: 'mt-4 w-[382px] pl-[60px] leading-relaxed text-gray-700',
-    h5: 'px-10 text-lg font-medium text-gray-900',
+    h5: 'px-10 text-xl font-medium text-gray-900',
 }
 
 

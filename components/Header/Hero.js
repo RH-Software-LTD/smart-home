@@ -2,12 +2,12 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from 'react-icons/f
 
 
 const styles = {
-  section: 'text-center w-full px-32 flex flex-col justify-center items-center py-2 grow',
+  section: 'text-center flex flex-col justify-center items-center py-4 grow',
   heroBody: 'px-4 flex flex-col mt-8 justify-center items-center',
   header: 'mb-8',
-  headerText: 'text-white text-header font-extrabold whitespace-nowrap',
+  headerText: 'text-white text-7xl font-extrabold whitespace-nowrap',
   p: 'w-2/3 text-[18px] font-normal text-[#FAFAFA]',
-  phones: 'mt-4 w-full max-w-[1320px] lg:mt-2-10',
+  phones: 'mt-4 w-full lg:mt-2-10',
   socialBar: 'absolute left-0 top-[532px] px-5 flex flex-col space-y-6 text-white',
 }
 

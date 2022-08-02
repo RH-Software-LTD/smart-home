@@ -9,6 +9,7 @@ import Faqs from '../components/Faq/Faqs';
 import DownloadCTA from '../components/Download/DownloadCTA';
 import Cta from '../components/Cta/Cta';
 import Footer from '../components/Footer/Footer';
+import Copyright from '../components/Footer/Copyright';
 
 
 const Home = () => {
@@ -20,15 +21,18 @@ const Home = () => {
         <meta name="Description" content="React next landing page" />
         <meta name="theme-color" content="#1E5AFA" />
       </Head>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <OurClients/>
-      <Testimonial/>
-      <Faqs/>
-      <DownloadCTA/>
-      <Cta/>
-      <Footer/>
+      <div className="w-4/5">
+        <Navbar />
+        <Hero />
+        <About />
+        <OurClients />
+        <Testimonial />
+        <Faqs />
+        <DownloadCTA />
+        <Cta />
+        <Footer />
+      </div>
+      <Copyright />
     </div>
   )
 }

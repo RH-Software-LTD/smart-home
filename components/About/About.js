@@ -1,8 +1,8 @@
 import Card from "./Card";
 
 const styles = {
-    section: 'py-4 px-24 grow lg:pt-2 lg:pb-16 w-full flex items-center flex-col',
-    header: 'text-header font-bold py-12 text-[#313131]',
+    section: 'py-4 flex items-center flex-col',
+    header: 'text-5xl font-bold py-12 text-[#313131]',
 }
 
 const About = () => {

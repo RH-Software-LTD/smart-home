@@ -7,7 +7,7 @@ const styles = {
 
 const Clients = () => {
   return (
-    <section className="max-w-[1320px] w-full px-32">
+    <section className="w-full px-32">
         <div className={styles.columns}>
             <div className={styles.logos}>
                 <img className="mx-auto h-16" src="/logo1.png" alt="logo1" />

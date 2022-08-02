@@ -1,9 +1,9 @@
 import Testimonials from "./Testimonials";
 
 const styles = {
-    section: 'py-4 grow lg:pt-2 lg:pb-16 w-full flex items-center flex-col',
+    section: 'py-4 grow w-full flex items-center flex-col',
     header: 'text-header font-bold py-12 text-[#313131]',
-    p: "py-10 text-center text-lg font-normal text-[#575757] w-[756px]",
+    p: "py-10 text-center text-xl font-normal text-[#575757]",
 
 }
 

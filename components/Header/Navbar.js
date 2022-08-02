@@ -1,7 +1,6 @@
 const styles = {
-  nav: 'w-full px-32',
-  navMain: 'py-8 lg:py-5 flex items-center justify-between max-w-screen-1.5lg  m-auto',
-  navButtonContainer: 'flex w-2/5 gap-9 py-3 justify-flex-start',
+  navMain: 'py-8 lg:py-5 flex items-center justify-between',
+  navButtonContainer: 'hidden md:flex w-2/5 gap-9 py-3 justify-flex-start',
   navButton: 'text-sm font-normal text-white inline-block focus-within:ring-0',
   buttonSection: 'hidden md:flex w-2/5 py-1 text-base text-white flex-wrap content-center justify-end items-center space-x-4 lg:flex',
 }
@@ -9,7 +8,6 @@ const styles = {
 
 const Navbar = () => {
   return (
-    <nav className={styles.nav}>
       <div className={styles.navMain}>
         <div className={styles.navButtonContainer}>
           <a href="#" className={styles.navButton}>
@@ -33,7 +31,6 @@ const Navbar = () => {
           </button>
         </div>
       </div>
-    </nav>
   )
 }
 

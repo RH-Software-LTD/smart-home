@@ -1,9 +1,9 @@
 const styles = {
-  container: "flex max-w-[1320px] py-10 w-full justify-between px-32",
-  phone: "w-1/2",
-  infoBox: "w-1/2 pl-24",
+  container: "flex flex-col py-10 md:space-x-12 w-full justify-between md:flex-row",
+  phone: "flex justify-center items-center md:w-1/2",
+  infoBox: "md:w-1/2",
   header: "pt-32 text-aboutHeader font-semibold tracking-[2px] text-[#000F37]",
-  info: "py-10 text-lg font-normal text-[#575757]",
+  info: "py-10 text-xl font-normal text-[#575757]",
 };
 
 const Card = () => {

@@ -1,5 +1,5 @@
 const styles = {
-    section: 'max-w-screen-xl px-4 py-8 mx-auto',
+    section: 'px-4 py-8',
     grids: 'grid grid-cols-1 mt-8 lg:grid-cols-2 gap-x-16 gap-y-12',
     blockquotes: 'border-1 rounded-lg bg-gray-100 p-6 hover:bg-white'
 }
