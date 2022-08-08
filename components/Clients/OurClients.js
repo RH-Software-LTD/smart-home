@@ -1,7 +1,7 @@
 import Clients from './Clients';
 
 const styles = {
-    section: 'py-4 grow lg:pt-2 lg:pb-16 flex items-center flex-col',
+    section: 'w-4/5 py-4 grow lg:pt-2 lg:pb-16 flex items-center flex-col',
     header: 'text-header font-bold py-1 text-[#313131]',
     p: "py-10 text-center text-xl font-normal text-[#575757]",
 

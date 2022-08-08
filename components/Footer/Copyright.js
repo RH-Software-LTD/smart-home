@@ -7,7 +7,7 @@ const styles = {
 const Copyright = () => {
     return (
         <section className={styles.section}>
-            <p className={styles.p}>Copyright © 2021 all rights reserved smartHome</p>
+            <p className={styles.p}>Copyright © 2021 all rights reserved Smart Solutions</p>
         </section>
     );
 };

@@ -1,6 +1,6 @@
 const Cta = () => {
     return (
-    <div className="my-10 mb-32">
+    <div className="w-4/5 my-10 mb-32">
         <div className="rounded-xl bg-blue-700 p-16">
             <div className="-m-6 flex flex-wrap items-center justify-between">
                 <div className="w-1/2 p-6">

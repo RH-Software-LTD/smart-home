@@ -10,7 +10,7 @@ const ExampleQuestions = {
 }
 
 const styles = {
-  section: "py-4 grow w-full flex items-center flex-col",
+  section: "w-4/5 py-4 grow w-full flex items-center flex-col",
   container: "space-y-4 py-12",
   header: "text-5xl font-bold py-1 text-[#313131]",
 }

@@ -1,10 +1,11 @@
 const styles = {
+  section:'w-4/5',
   flexWrap: 'flex flex-wrap items-center',
 }
 
 const DownloadCTA = () => {
   return (
-    <section>
+    <section className={styles.section}>
       <div className={styles.flexWrap}>
         <div>
           <h2 class="mb-6 text-5xl font-bold text-[#313131]">Download App</h2>
