@@ -12,6 +12,8 @@ const Hero = () => {
   return (
     <section className={styles.section}>
       <div className={styles.heroBody}>
+
+
         <div className={styles.header}>
           <h1 className={styles.headerText}>
             Smart Home
