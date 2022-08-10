@@ -1,42 +1,40 @@
 
 const styles = {
-    columns: 'mx-auto grid grid-cols-4 gap-4 mb-6',
-    logos: 'border-2 object-fit p-6 shadow-lg rounded-md'
+    container: 'grid grid-cols-2 md:grid-cols-4 gap-4',
+    logos: 'w-full flex shadow-lg items-center justify-center'
 
 }
 
 const Clients = () => {
-  return (
-    <section className="w-full px-32">
-        <div className={styles.columns}>
+    return (
+        <section className={styles.container}>
             <div className={styles.logos}>
-                <img className="mx-auto h-16" src="/logo1.png" alt="logo1" />
+                <img src="/logo1.png" alt="logo1" />
             </div>
             <div className={styles.logos}>
-                <img className="mx-auto h-16" src="/logo2.png" alt="logo2" />
+                <img src="/logo2.png" alt="logo2" />
             </div>
             <div className={styles.logos}>
-                <img className="mx-auto h-16" src="/logo3.png" alt="logo3" />
+                <img src="/logo3.png" alt="logo3" />
             </div>
             <div className={styles.logos}>
-                <img className="mx-auto h-16" src="/logo4.png" alt="logo4" />
-            </div>
-        </div>
-        <div className={styles.columns}>
-            <div className={styles.logos}>
-                <img className="mx-auto h-12" src="/logo5.png" alt="logo5" />
+                <img src="/logo4.png" alt="logo4" />
             </div>
             <div className={styles.logos}>
-                <img className="mx-auto h-12" src="/logo6.png" alt="logo6" />
+                <img src="/logo5.png" alt="logo5" />
             </div>
             <div className={styles.logos}>
-                <img className="mx-auto h-12" src="/logo7.png" alt="logo7" />
+                <img src="/logo6.png" alt="logo6" />
+            </div>
+
+            <div className={styles.logos}>
+                <img src="/logo7.png" alt="logo7" />
             </div>
             <div className={styles.logos}>
-                <img className="mx-auto h-12" src="/logo8.png" alt="logo8" />
+                <img src="/logo8.png" alt="logo8" />
             </div>
-        </div>
-    </section>
+
+        </section>
     )
 }
 
