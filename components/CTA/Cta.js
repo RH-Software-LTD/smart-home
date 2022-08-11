@@ -1,15 +1,12 @@
-const style = {
-}
-
 const Cta = () => {
     return (
-    <div className=" max-w-[1320px] my-10 container mx-auto px-4">
+    <div id ="Contact" className="w-4/5 my-10 mb-32">
         <div className="rounded-xl bg-blue-700 p-16">
             <div className="-m-6 flex flex-wrap items-center justify-between">
                 <div className="w-1/2 p-6">
                     <div className="font-heading text-white">
                         <h2 className="text-[42px] font-semibold">Subscribe to get updated</h2>
-                        <p className="my-5 text-base text-opacity-60">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque .</p>
+                        <p className="my-5 text-md text-opacity-60">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque .</p>
                     </div>
                  </div>
                 <div className="w-1/2 p-6">

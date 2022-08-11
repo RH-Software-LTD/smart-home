@@ -1,0 +1,19 @@
+.cornerEllipse {
+  display: block;
+  border-radius: 50%;
+  width: 308px;
+  height: 308px;
+  border: 90px solid #336afa;
+  box-sizing: border-box;
+  z-index: 0;
+}
+
+.middleEllipse {
+  display: block;
+  border-radius: 50%;
+  width: 310px;
+  height: 310px;
+  border: 90px solid #E9EFFF;
+    box-sizing: border-box;
+  z-index: 0;
+}
