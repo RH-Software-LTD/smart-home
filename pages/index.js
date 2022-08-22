@@ -8,7 +8,7 @@ import OurClients from '../components/Clients/OurClients'
 import Testimonial from '../components/Testimonial/Testimonial';
 import Faqs from '../components/Faq/Faqs';
 import DownloadCTA from '../components/Download/DownloadCTA';
-import Cta from '../components/Cta/Cta';
+import Cta from '../components/CTA/Cta';
 import Footer from '../components/Footer/Footer';
 import Copyright from '../components/Footer/Copyright';
 
