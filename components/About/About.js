@@ -12,7 +12,7 @@ const About = () => {
   return (
     <section id="About" className={styles.section}>
       <div className={styles.vector}>             
-      <img src="/vectorLine.png" className={styles.vectorImg} alt='vectorLine'></img>
+      <img src="/VectorLine.png" className={styles.vectorImg} alt='vectorLine'></img>
       </div>
 
       <div className={styles.container}>
