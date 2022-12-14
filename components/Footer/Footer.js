@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="lg:w-2/3 flex flex-col justify-between md:flex-row gap-9 md:gap-0">
+        <div className="lg:w-2/3 flex flex-col justify-between md:flex-row gap-9 md:gap-0 text-center sm:text-start">
           <div>
             <h2 className="uppercase text-[24px] mb-10 font-semibold">Categories</h2>
             <ul>
