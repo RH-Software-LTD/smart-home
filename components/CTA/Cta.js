@@ -21,7 +21,7 @@ const Cta = () => {
                     <div className=" flex flex-wrap justify-center">
                         <div className="w-auto">
                             <button className="font-heading border-2 rounded-md border-white py-4 text-xs">
-                                <p className="text-center -tracking-tighter text-white">Get Start</p>
+                                <p className="text-center -tracking-tighter px-8 text-white">Get Start</p>
                             </button>
                         </div>
                     </div>
