@@ -2,7 +2,7 @@ const styles = {
   section: 'relative text-center flex flex-col justify-center items-center py-4 grow mb-8',
   heroBody: 'w-4/5 px-4 flex flex-col mt-8 justify-center items-center',
   header: 'mb-8',
-  headerText: 'text-white text-7xl font-extrabold whitespace-nowrap',
+  headerText: 'text-white text-5xl sm:text-7xl font-extrabold whitespace-nowrap',
   p: 'w-2/3 text-[18px] font-normal text-[#FAFAFA] mb-8',
   phones: 'mt-4 w-4/5 mb-12',
 }
@@ -28,7 +28,7 @@ const Hero = () => {
         </p>
         <img src="phones.png" className={styles.phones}></img>
       </div>
-      <div className="flex justify-center items-center space-x-10 z-10">
+      <div className="w-4/5 px-4 flex justify-center items-center space-x-2 sm:space-x-10 z-10">
         <a href=""><img src="/apple.png" alt='apple'></img></a>
         <a href=""><img src="/google.png" alt="google"></img></a>
       </div>
