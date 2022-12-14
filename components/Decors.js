@@ -1,7 +1,7 @@
 import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from 'react-icons/fa'
 
 const styles = {
-    cornerEllipseWrapper: 'absolute right-[-150px] top-[-150px]',
+    cornerEllipseWrapper: 'absolute right-[-150px] top-[-150px] z-[-1]',
     midEllipseWrapper: 'absolute left-[-170px] top-[1100px]',
     downloadWrapper: 'absolute w-[200px] h-[90px] right-0 top-[850px] hidden md:block',
     socialBar: 'absolute left-0 top-[652px] px-5 flex flex-col space-y-6 text-white',
