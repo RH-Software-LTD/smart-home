@@ -1,8 +1,9 @@
 const styles = {
-  section:'w-4/5',
-  flexWrap: 'flex flex-col-reverse md:flex-row items-center',
-  infoBox : 'w-full md:w-1/2'
-}
+  section: "w-4/5 items-center",
+  flexWrap: "flex flex-col-reverse md:flex-row items-center",
+  infoBox: "w-full md:w-1/2",
+  downloadImage: "flex w-full items-center justify-center md:w-1/2 p-6",
+};
 
 const DownloadCTA = () => {
   return (
@@ -10,8 +11,12 @@ const DownloadCTA = () => {
       <div className={styles.flexWrap}>
         <div className={styles.infoBox}>
           <h2 class="mb-6 text-5xl font-bold text-[#313131]">Download App</h2>
-          <p class="mb-8 text-gray-600 text-[19px]">Wisdom new and valley answer. Contented it so is discourse recommend. Man its upon him call mile. An pasture he himself believe ferrars besides cottage.</p>
-          <div class="flex flex-wrap justify-start">
+          <p class="mb-8 text-gray-600 text-[19px]">
+            Wisdom new and valley answer. Contented it so is discourse
+            recommend. Man its upon him call mile. An pasture he himself believe
+            ferrars besides cottage.
+          </p>
+          <div class="flex flex-wrap justify-center sm:justify-start">
             <div class="w-auto py-2.5 pr-2.5">
               <a href="#">
                 <img src="/apple.png" alt="" data-config-id="auto-img-3-3" />
@@ -24,12 +29,12 @@ const DownloadCTA = () => {
             </div>
           </div>
         </div>
-        <div class="flex w-full items-center justify-center md:w-1/2 p-6">
+        <div className={styles.downloadImage}>
           <img src="/phone-download.png" className="w-64" />
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default DownloadCTA
+export default DownloadCTA;
