@@ -1,9 +1,12 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev:local": "next dev",
+    "build:local": "next build",
+    "start:local": "next start",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node server.js --trace-warnings ..."
   },
   "dependencies": {
     "next": "^13.0.6",
