@@ -1,17 +1,17 @@
-import Head from 'next/head';
-import React from 'react'
-import Navbar from '../components/Header/Navbar'
-import Decors from '../components/Decors';
-import Hero from '../components/Header/Hero'
-import About from '../components/About/About'
-import OurClients from '../components/Clients/OurClients'
-import Testimonial from '../components/Testimonial/Testimonial';
-import Faqs from '../components/Faq/Faqs';
-import DownloadCTA from '../components/Download/DownloadCTA';
-import Cta from '../components/CTA/Cta';
-import Footer from '../components/Footer/Footer';
-import Copyright from '../components/Footer/Copyright';
-
+import Head from "next/head";
+import React from "react";
+import Navbar from "../components/Header/Navbar";
+import Decors from "../components/Decors";
+import Hero from "../components/Header/Hero";
+import About from "../components/About/About";
+import OurClients from "../components/Clients/OurClients";
+import Testimonial from "../components/Testimonial/Testimonial";
+import Faqs from "../components/Faq/Faqs";
+import DownloadCTA from "../components/Download/DownloadCTA";
+import Cta from "../components/CTA/Cta";
+import Footer from "../components/Footer/Footer";
+import Copyright from "../components/Footer/Copyright";
+import { IKContext } from "imagekitio-react";
 
 const Home = () => {
   return (
@@ -22,19 +22,21 @@ const Home = () => {
         <meta name="Description" content="React next landing page" />
         <meta name="theme-color" content="#1E5AFA" />
       </Head>
-      <Decors />
-      <Navbar />
-      <Hero />
-      <About />
-      <OurClients />
-      <Testimonial />
-      <Faqs />
-      <DownloadCTA />
-      <Cta />
-      <Footer />
-      <Copyright />
+      <IKContext urlEndpoint="https://ik.imagekit.io/rcakiroglu">
+        <Decors />
+        <Navbar />
+        <Hero />
+        <About />
+        <OurClients />
+        <Testimonial />
+        <Faqs />
+        <DownloadCTA />
+        <Cta />
+        <Footer />
+        <Copyright />
+      </IKContext>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

@@ -1,21 +1,33 @@
 const styles = {
   containerLeft:
-    "flex flex-col md:space-x-20 w-full justify-between md:flex-row",
+    "flex flex-col md:space-x-20 w-full justify-between md:flex-row z-10",
   containerRight:
     "flex flex-col md:space-x-20 w-full justify-between md:flex-row flex-col-reverse",
-  phone: "flex justify-center items-center md:w-1/2",
+  phone: "flex justify-center items-center md:w-1/2 z-10",
   infoBox: "md:w-1/2 flex flex-col items-center md:items-start justify-center",
-  header: "pt-8 md:pt-32 text-5xl md:text-6xl xl:text-7xl font-semibold tracking-[2px] text-[#000F37]",
+  header:
+    "pt-8 md:pt-32 text-5xl md:text-6xl xl:text-7xl font-semibold tracking-[2px] text-[#000F37]",
   info: "py-10 text-xl md:text-2xl xl:text-3xl font-normal text-[#C2C2C2]",
 };
+
+import { IKImage } from "imagekitio-react";
 
 const Card = () => {
   return (
     <>
-
       <section className={styles.containerLeft}>
         <div className={styles.phone}>
-          <img src="firstPhone.png"></img>
+          <IKImage
+            path="smarthome/firstPhone.png"
+            transformation={[
+              {
+                height: "820",
+                width: "670",
+              },
+            ]}
+            loading="lazy"
+            lqip={{ active: true }}
+          />
         </div>
         <div className={styles.infoBox}>
           <h2 className={styles.header}>Smart Home’s Smart Services</h2>
@@ -44,12 +56,32 @@ const Card = () => {
           </button>
         </div>
         <div className={styles.phone}>
-          <img src="secondPhone.png"></img>
+          <IKImage
+            path="smarthome/secondPhone.png"
+            transformation={[
+              {
+                height: "820",
+                width: "670",
+              },
+            ]}
+            loading="lazy"
+            lqip={{ active: true }}
+          />
         </div>
       </section>
       <section className={styles.containerLeft}>
         <div className={styles.phone}>
-          <img src="thirdPhone.png"></img>
+          <IKImage
+            path="smarthome/thirdPhone.png"
+            transformation={[
+              {
+                height: "820",
+                width: "670",
+              },
+            ]}
+            loading="lazy"
+            lqip={{ active: true }}
+          />
         </div>
         <div className={styles.infoBox}>
           <h2 className={styles.header}>Control Electric Appliences</h2>

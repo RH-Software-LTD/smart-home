@@ -1,3 +1,5 @@
+import { IKImage } from "imagekitio-react";
+
 const styles = {
   section: "w-4/5 items-center",
   flexWrap: "flex flex-col-reverse md:flex-row items-center",
@@ -19,18 +21,31 @@ const DownloadCTA = () => {
           <div class="flex flex-wrap justify-center sm:justify-start">
             <div class="w-auto py-2.5 pr-2.5">
               <a href="#">
-                <img src="/apple.png" alt="" data-config-id="auto-img-3-3" />
+                <IKImage
+                  path="smarthome/apple.png"
+                  loading="lazy"
+                  lqip={{ active: true }}
+                />
               </a>
             </div>
             <div class="items-left py-2.5 pr-2.5">
               <a href="#">
-                <img src="/google.png" />
+                <IKImage
+                  path="smarthome/google.png"
+                  loading="lazy"
+                  lqip={{ active: true }}
+                />
               </a>
             </div>
           </div>
         </div>
         <div className={styles.downloadImage}>
-          <img src="/phone-download.png" className="w-64" />
+          <IKImage
+            path="smarthome/phone-download.png"
+            loading="lazy"
+            className="w-64"
+            lqip={{ active: true }}
+          />
         </div>
       </div>
     </section>
